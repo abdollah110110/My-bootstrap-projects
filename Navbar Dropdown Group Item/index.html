@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="fa">
+    <head>
+
+        <title>Bootstrap - Navbar, Dropdown, Group Item</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-rtl.css">
+
+        <link rel="stylesheet" href="css/vazir.css">
+        <link rel="stylesheet" href="css/themify-icons.css">
+        <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+
+        <link href="css/styles.css" rel="stylesheet">
+
+    </head>
+    <body>
+        
+        <div id="navbar-animate" class="navbar-animate fixed-top">
+            <div class="container">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg navbar-dark w-100">
+                        <a class="navbar-brand m-0 mx-3 mr-lg-0" href="#">Navbar, Dropdown, Group Item</a>
+                        <div>
+                            <span class="ti ti-menu h4 navbar-toggler" data-toggle="collapse" data-target="#navbar-toggler"></span>
+                            <span class="ti ti-search h4 navbar-toggler" data-toggle="collapse" data-target="#navbar-search"></span>
+                        </div>
+                        <div class="collapse navbar-collapse justify-content-lg-end" id="navbar-toggler">
+                            <ul class="navbar-nav d-flex ml-lg-auto px-0">
+                                <li class="nav-item active">
+                                    <a class="nav-link px-2" href="#">داشبورد</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link px-2" href="#">کاربران</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link px-2" href="#">تنظیمات</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link px-2 dropdown-toggle" href="#" id="dropdown-menu" data-toggle="dropdown" aria-expanded="false">
+                                        دراپداون منو 1
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdown-menu">
+                                        <div class="d-flex flex-column">
+                                            <a href="#">دراپداون منو - لینک 1</a>
+                                            <a href="#">دراپداون منو - لینک 2</a>
+                                            <a href="#">دراپداون منو - لینک 3</a>
+                                            <a href="#">دراپداون منو - لینک 4</a>
+                                            <a href="#">دراپداون منو - لینک 5</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link px-2 dropdown-toggle" href="#" id="dropdown-menu" data-toggle="dropdown" aria-expanded="false">
+                                        دراپداون منو 2
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdown-menu">
+                                        <div class="d-flex flex-column">
+                                            <a href="#">دراپداون منو - لینک 1</a>
+                                            <a href="#">دراپداون منو - لینک 2</a>
+                                            <a href="#">دراپداون منو - لینک 3</a>
+                                            <a href="#">دراپداون منو - لینک 4</a>
+                                            <a href="#">دراپداون منو - لینک 5</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="d-flex flex-column-reverse flex-lg-row">
+                                <div class="account d-flex flex-column flex-lg-row align-items-center mx-lg-0 mr-lg-auto">
+                                    <a href="#navbar-search" class="w-100 d-none d-lg-flex mb-1 mb-lg-0 mr-3" data-toggle="collapse">
+                                        <span class="ml-2 ti ti-search"></span>
+                                        <span class="d-none d-lg-block">جستجو</span>
+                                    </a>
+                                    <a href="#" class="w-100 d-flex mb-1 mb-lg-0 mr-3"><span class="ml-2 oi oi-person"></span> عضویت</a>
+                                    <a href="#" class="w-100 d-flex mb-1 mb-lg-0 mr-3"><span class="ml-2 oi oi-account-login"></span> ورود</a>
+                                    <a href="#" class="w-100 d-flex mb-1 mb-lg-0 mr-3"><span class="ml-2 oi oi-account-logout"></span> خروج</a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="collapse" id="navbar-search">
+                    <form class="form-inline py-2 d-flex justify-content-center">
+                        <input class="form-control w-60 border-0 rounded-0" type="search" placeholder="جستجو..." aria-label="جستجو">
+                        <button class="btn btn-danger border-0 rounded-0" type="submit">جستجو</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="d-flex flex-column flex-md-row justify-md-content-around">
+            <img src="images/n1.jpg" alt="n1" >
+            <img src="images/n2.jpg" alt="n2" >
+            <img src="images/n4.jpg" alt="n4" >
+            <img src="images/n3.jpg" alt="n3" >
+        </div>
+        
+        <div class="container py-4rem">
+            <div class="row">
+                <h4>سایدبارمنو برای همه اندازه های نمایشگرها - فایل js ندارد</h4>
+                <ul class="list-group w-100 mx-3 mx-sm-0">
+                    <li class="list-group-item active">
+                        <a href="#" class="d-flex">صفحه اصلی</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#" class="d-flex justify-content-between">
+                            لینک 1
+                            <span class="badge badge-pill">45</span>
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#" class="d-flex justify-content-between align-items-center">
+                            لینک 2
+                            <span class="badge badge-pill">645</span>
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#submenu1" class="d-flex justify-content-between align-items-center" data-toggle="collapse">
+                            ساب منو 1
+                            <i class="oi oi-caret-left"></i>
+                        </a>
+                        <div class="collapse" id="submenu1">
+                            <ul class="list-group w-100">
+                                <li class="list-group-item">
+                                    <a href="#" class="d-flex">ساب منو 1 - لینک 1</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="#" class="d-flex justify-content-between align-items-center">
+                                        ساب منو 2 - لینک 2
+                                        <span class="badge badge-pill">36</span>
+                                    </a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="#" class="d-flex">ساب منو 3 - لینک 3</a>
+                                </li>
+                            </ul>    
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#" class="d-flex">خروج</a>
+                    </li>
+                </ul>
+                <div class="col-lg-6">
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="scroll-top">
+            <i class="oi oi-arrow-top"></i>
+        </div>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                
+                $('.navbar-toggler').click(function() {
+                    if($('.fixed-top').hasClass('scroll-y')){
+                        $('.fixed-top').removeClass('scroll-y');
+                    }
+                    else{
+                        $('.fixed-top').addClass('scroll-y');
+                    }
+                });
+                
+                $('.dropdown-toggle').click(function() {
+                    $(this).next('.dropdown-menu').slideToggle(500);
+                });
+                
+                $(window).on('scroll', function(){
+                    navbar_animate();
+                    scroll_top_animate();
+                });
+                
+                $('.scroll-top').on('click', function(){
+                    $('html, body').animate({scrollTop:0}, 750);
+                });
+                
+            });
+            
+            function scroll_top_animate(){
+                if($(window).scrollTop() > 100){
+                    $('.scroll-top').fadeIn(500);
+                }
+                else if($(window).scrollTop() <= 50){
+                    $('.scroll-top').fadeOut(500);
+                }
+            }
+            
+            function navbar_animate(){
+                if($(window).scrollTop() > 0){
+                    $('.navbar-animate').css({
+                        'background-color':'#8e44ad'
+                    });
+                    $('.navbar').css({
+                        'padding':'0',
+                    });
+                    if($(window).width() <= 991){
+                        $('.dropdown-menu').css({
+                            'background-color':'#8e44ad'
+                        });
+                    }
+                    else{
+                        $('.dropdown-menu').css({
+                            'top':'2.36rem',
+                            'background-color':'#8e44ad',
+                            'transition': 'all .5s ease'
+                        });
+                        setTimeout(function(){
+                            $('.dropdown-menu').css({
+                                'transition': 'none'
+                            });
+                        }, 510);
+                    }
+                }
+                else{
+                    $('.navbar-animate').css({
+                        'background-color':'#8e44ad66'
+                    });
+                    $('.navbar').css({
+                        'padding':'1.5rem 0',
+                    });
+                    if($(window).width() <= 991){
+                        $('.dropdown-menu').css({
+                            'background-color':'transparent'
+                        });
+                    }
+                    else{
+                        $('.dropdown-menu').css({
+                            'top':'3.86rem',
+                            'background-color':'#8e44ad66',
+                        });
+                    }
+                }
+            }
+            
+        </script>
+        </body>
+</html>

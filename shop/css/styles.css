@@ -1,0 +1,109 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .active > .nav-link:hover{ 
+    color: #f1c40f;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link, 
+.navbar-dark .navbar-nav .nav-link.active, 
+.navbar-dark .navbar-nav .nav-link.show, 
+.navbar-dark .navbar-nav .show > .nav-link {
+    color: #f39c12;
+}
+
+.dropdown-menu {
+    margin: 0 -4px 0 -10.7rem !important;
+    min-width: 15rem;
+}
+.dropdown-item {
+    color: #fff;
+}
+
+.form-inline .form-control,
+.form-inline .btn{
+    border-radius: 0;
+}
+
+.bg-color-navbar {
+    background-color: #009432 !important;
+}
+
+.lead {
+    font-size: 1.35rem;
+}
+
+.box-shadow {
+    box-shadow: 0 0.15rem 0.70rem rgba(109, 108, 108, 0.28);
+}
+
+.bg-lightest{
+    background-color: #eee;
+}
+.bg-warning-light{
+    background-color: #fff4cc;
+}
+.bg-success-light{
+    background-color: #9bc1a2;
+}
+.bg-success-dark{
+    background-color: #1e272e;
+}
+
+.text-success-light{
+    color: #ecf0f1;
+}
+
+.btn-success-light{
+    background-color: #A3CB38;
+}
+.btn-success-light:hover{
+    background-color: #C4E538;
+}
+
+.body-padding-top{
+    padding-top: 2.8rem;
+}
+
+.carousel-inner{
+    position: relative;
+}
+
+.my-hr{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    
+}
+.hr-light {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid rgba(250, 251, 253, 0.36);
+}
+
+.card:hover{
+    box-shadow: 0 0.15rem 0.70rem rgb(145, 190, 145);
+}
+
+.card h4 a,
+.card h4 a:link{
+    color: #080;
+    text-decoration: none;
+}
+.card h4 a:hover{
+    color: #070;
+}
+
+footer a,
+footer a:link{
+    color: #ccc;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #eef;
+}
+
+.box-shadow-green{
+    box-shadow: 0 0.15rem 0.70rem rgb(179, 212, 179);
+}
