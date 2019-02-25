@@ -1,0 +1,33 @@
+
+@media screen and (max-width: 992px) {
+	body{
+		position: relative;
+		overflow: hidden;
+	}
+	#sidebar{
+		position: absolute;
+		top: 56px;
+		left: 0;
+		width: 90%;
+		padding: 15px 25px;
+		border-radius: 0;
+		height: 500px;
+		overflow: auto;
+		color: #eec;
+		background-color: rgba(0, 0, 0, 0.9);
+	}
+	.transform-in{
+		transition: all linear;
+		transition-duration: .7s;
+		transform: translate(-110%, 0);
+	}
+	.transform-out{
+		transition: all linear;
+		transition-duration: .7s;
+		transform: translate(0, 0);
+	}
+	#sidebar .nav-link{
+		color: #eec;
+	}
+}
+

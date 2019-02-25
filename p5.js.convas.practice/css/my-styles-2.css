@@ -1,0 +1,42 @@
+/***********************************************************************************
+							Page styles
+***********************************************************************************/
+body {
+	position: relative;
+    padding: 0;
+    margin: 0;
+	direction: rtl;
+	text-align: right;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+
+    margin: 0;
+    padding: 15px 0 26px;
+    background-color: #0b030a;
+    color: #fff;
+    text-align: center;
+
+}
+
+/***********************************************************************************
+							Canvas styles
+***********************************************************************************/
+#parent-canvas{
+	position: relative;
+	width: 50%;
+	margin: 10px auto;
+	background-color: purple;
+	min-height: 10px;
+}
+#canvas{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background-color: black;
+}
+
+#defaultCanvas0 {
+    margin-bottom: -4px;
+}
+

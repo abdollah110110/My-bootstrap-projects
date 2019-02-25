@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+        <style>
+            #anima{
+                background-color: black;
+                color: aliceblue;
+                padding: 30px;
+                width: 250px;
+                height: 500px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="anima" class="animated">
+            <h1>Animate Div</h1>
+        </div>
+        <button id="in" type="button">Fade In</button>
+        <button id="out" type="button">Fade Out</button>
+
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(function(){
+                $('#in').click(function(){
+                    $('#anima').removeClass('fadeOutLeft');
+                    $('#anima').addClass('fadeInLeft');
+                });
+                $('#out').click(function(){
+                    $('#anima').removeClass('fadeInLeft');
+                    $('#anima').addClass('fadeOutLeft');
+                });
+            });
+        </script>
+    </body>
+</html>

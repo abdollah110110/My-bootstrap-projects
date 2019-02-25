@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html lang="fa">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="images/favicon.png">
+
+        <title>سمعی وب</title>
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap.rtl.css" rel="stylesheet">
+        <link href="font/fontawesome/css/all.min.css" rel="stylesheet">
+        <link href="css/themify-icons.css" rel="stylesheet">
+        <link href="css/vazir.css" rel="stylesheet">
+        <link href="css/my-styles.css" rel="stylesheet">
+        <link href="css/my-media-styles.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-dark align-items-center">
+            <a class="navbar-brand" href="#">وب سایت عبدالله سمعی</a>
+            <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="ti-menu"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">صفحه اصلی <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            موضوع مقالات
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">لاراول</a>
+                            <a class="dropdown-item" href="#">بوت استرپ</a>
+                            <a class="dropdown-item" href="#">برنامه نویسی وب</a>
+                            <a class="dropdown-item" href="#">طراحی وب</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">تماس با من</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="logo-search" class="container-fluid py-3">
+            <div class="row">
+                <div class="col-lg-3 d-flex align-items-center">
+                    <img id="logo" src="images/bootstrap-logo.png" class="img-fluid">
+                </div>
+                <div class="col-lg-7 d-flex align-items-center  justify-content-center">
+                    <form id="search" class="d-flex flex-fill w-100">
+                        <input class="form-control px-2 pt-2 pb-3 text-center flex-grow-1 rounded-0 border-left-0" type="search" placeholder="جستجو..." aria-label="Search">
+                        <button class="btn btn-danger px-3 pt-2 pb-3 rounded-left" type="submit">جستجو</button>
+                    </form>
+                </div>
+                <div id="register-login-btn" class="col-lg-2 d-flex flex-column pr-5 pt-5">
+                    <a href="#register" class="mb-2">
+                        <i class="far fa-registered"></i> عضویت
+                    </a>
+                    <a href="#login" class="mb-3">
+                        <i class="fas fa-sign-in-alt"></i> ورود
+                    </a>
+                    <form action="#" method="POST" class="mb-2">
+                        <button class="btn btn-sm btn-warning pb-2">
+                            <i class="fas fa-sign-out-alt"></i> خروج
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container text-center">
+                <h1 class="display-1">عبدالله سمعی هستم</h1>
+                <h2 class="display-4">
+                    <i class="fas fa-file-code"></i> برنامه نویس وب سایت
+                </h2>
+                <h1 class="display-2">
+                    طراح وب سایت <i class="fas fa-image"></i>
+                </h1>
+                <h1 class="display-3">خوش آمدید</h1>
+            </div>
+        </div>
+
+        <div id="developer" class="row">
+            <div class="col-lg-6">
+                <h1 class="display-4 mb-5">Who is the web programmer?</h1>
+                <p class="lead">A web developer is a programmer who specializes in, or is specifically engaged in, the development of World Wide Web applications, or applications that are run over HTTP from a web server to a web browser. Web developers are found working in various types of organizations, including large corporations and governments, small and medium - sized companies, or alone as freelancers.</p>
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-4 mb-5">Focus on design</h1>
+                <p class="lead">Let us handle the HTML5 and CSS3 so you’re free to focus on what you love to do: creating gorgeous visual experiences. A full design suite lets you easily bring any vision to life.</p>
+            </div>
+        </div>
+
+		<!-- Bootstrap core JavaScript
+		 ================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="font/fontawesome/css/all.min.js"></script>
+		<script>
+			$(document).ready(function () {
+
+				// Add slideDown animation to Bootstrap dropdown when expanding.
+				$('.dropdown').on('show.bs.dropdown', function () {
+					$(this).find('.dropdown-menu').first().stop(true, true).slideDown();
+				});
+
+				// Add slideUp animation to Bootstrap dropdown when collapsing.
+				$('.dropdown').on('hide.bs.dropdown', function () {
+					$(this).find('.dropdown-menu').first().stop(true, true).slideUp();
+				});
+
+			});
+		</script>
+    </body>
+</html>
